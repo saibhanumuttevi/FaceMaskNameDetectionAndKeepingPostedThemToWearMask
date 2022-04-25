@@ -7,6 +7,12 @@ python, cuda, cudnn
 
 Steps:
 1. Firstly, we capture images of persons each of 50 images for more accuracy (CaptureDataset.py)
-![image](https://user-images.githubusercontent.com/83135144/165169827-267ccd41-e78a-408c-b4f3-31c462837eb7.png)
 2. Then we train the captured faces (train_faceDetector.py)
-3. 
+3. We collect the dataset of persons with and without mask 
+get it from: 
+4. we train the mask data (train_maskDetector.ipynb)
+this method produced more heat and more processing power
+5.we run the main file
+
+Demo:
+![video](https://user-images.githubusercontent.com/83135144/165171658-a72fb335-77ae-4359-a203-20c62b2ed7cb.gif)
