@@ -9,7 +9,7 @@ Steps:
 1. Firstly, we capture images of persons each of 50 images for more accuracy (CaptureDataset.py)
 2. Then we train the captured faces (train_faceDetector.py)
 3. We collect the dataset of persons with and without mask. Get it from: 
-https://drive.google.com/drive/folders/1VxIffbvxbt7g5xqYyO7BhWQrjFwcMhMU?usp=sharing
+https://drive.google.com/file/d/19TPEdS7IGHwGaxD63leO-fTdKsud60l-/view?usp=sharing
 4. we train the mask data (train_maskDetector.ipynb)
 this method produced more heat and more processing power
 5.we run the main file
